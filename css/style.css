@@ -1,0 +1,18 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+/*we use the pseudo selector before and give it a height of 60px so basically it will add a ghost element of 60px so it pushes the content back down*/
+
+@media (min-width: 768px) {
+    .case-input {
+        width: 50%;
+    }
+}
+/*as long as the width is over 768px the width is going to be*/
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
